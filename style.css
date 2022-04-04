@@ -10,6 +10,7 @@ h1{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #72efdd;
+    padding: 3%;
 }
 
 ul{
@@ -29,17 +30,22 @@ ol{
     margin: auto;
 }
 
+.nav-menu{
+    text-align: center;
+}
+
 .bottom{
     display: inline-block;
     min-width: 130px;
-    margin: 30px 0;
-    padding: 14px 60px;;
+    padding: 14px 60px;
     background-color: #4ea8de;
     border-radius: 5px;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
 	text-transform: uppercase;
+    position: relative;
+    left: 465px;
 }
 
 #foto{
@@ -66,4 +72,43 @@ ol{
     text-decoration: none;
     cursor: pointer;
     text-align: center;
+    position: relative;
+    left: 300px;
+}
+
+.image-container{
+    height: 400px;
+}
+
+#description{
+    text-align: justify;
+    top: 1000px;
+    right: 60px;
+    left: 460px;
+    position: absolute;
+}
+
+#foto{
+    float: left;
+    width: 380px;
+    padding: 10px;
+    background-color: #03045e;
+}
+
+.info p{
+    text-align: left;
+    position: relative;
+    left: 50px;
+}
+
+.info h2{
+    text-align: center;
+}
+
+ol li:hover{
+    color: white;
+}
+
+ol li:hover:nth-of-type(odd){
+    background-color: gray;
 }
